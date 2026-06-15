@@ -1,88 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>맛탐정 다람쥐 | 크리에이터 포트폴리오</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>맛탐정 다람쥐 | AI 맛집 콘텐츠 프로젝트</title>
+  <meta name="description" content="맛탐정 다람쥐를 활용한 AI 맛집 숏폼, 스토리보드, 이모티콘 굿즈 프로젝트 포트폴리오" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="logo">🐿️ 맛탐정 다람쥐</div>
-        <nav>
-            <ul>
-                <li><a href="#video">Videos</a></li>
-                <li><a href="#infographic">Infographics</a></li>
-                <li><a href="#goods">Goods</a></li>
-                <li><a href="#landing">Landing Page</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top">🐿️ 맛탐정 다람쥐</a>
+      <div class="nav-links">
+        <a href="#about">소개</a>
+        <a href="#videos">영상</a>
+        <a href="#goods">굿즈</a>
+        <a href="#plan">기획서</a>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section id="hero">
-            <h1>세상의 모든 맛을 탐구하다,<br><span>맛탐정 다람쥐</span>입니다.</h1>
-            <p>영상 기획부터 디자인, 브랜딩까지 아우르는 크리에이티브 포트폴리오</p>
-        </section>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">AI 이미지·영상 크리에이션 프로젝트</p>
+        <h1>맛집의 단서를 찾아내는<br><span>맛탐정 다람쥐</span></h1>
+        <p class="hero-desc">
+          탐정 모자를 쓰고 돋보기를 든 귀여운 다람쥐 캐릭터가 실제 맛집을 조사하고 소개하는
+          AI 기반 숏폼 콘텐츠 프로젝트입니다.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#videos">영상 보러가기</a>
+          <a class="btn" href="https://youtube.com/channel/UC7XDETzhe8UCVyUFmR_UUrw?si=u6k4Cye7d1Z_lfta" target="_blank" rel="noopener">유튜브 채널 이동</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="assets/character.jpeg" alt="맛탐정 다람쥐 캐릭터" />
+      </div>
+    </section>
 
-        <section id="video" class="content-section">
-            <h2>Featured Videos</h2>
-            <div class="video-container">
-                <div class="video-card">
-                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-                    <div class="video-info">
-                        <h3>가장 맛있는 도토리를 찾아서</h3>
-                        <div class="stats" data-video-id="YOUR_VIDEO_ID">
-                            <span><i class="fa-solid fa-eye"></i> <span class="views">로딩중...</span></span>
-                            <span><i class="fa-solid fa-thumbs-up"></i> <span class="likes">로딩중...</span></span>
-                        </div>
-                    </div>
-                </div>
+    <section id="about" class="section about-grid">
+      <div>
+        <p class="section-label">Character Concept</p>
+        <h2>맛탐정 다람쥐는 어떤 캐릭터인가요?</h2>
+        <p>
+          맛탐정 다람쥐는 전국의 맛집을 찾아다니며 음식의 매력과 가게의 특징을 조사하는
+          탐정 콘셉트의 캐릭터입니다. “사건 발생 → 조사 시작 → 단서 발견 → 사건 해결”의 흐름으로
+          맛집을 재미있고 직관적으로 소개합니다.
+        </p>
+      </div>
+      <div class="feature-list">
+        <div class="feature-card"><strong>시그니처 대사</strong><span>단서 발견! / 사건 해결! / 여긴 인정</span></div>
+        <div class="feature-card"><strong>디자인 방향</strong><span>따뜻한 색감, 귀여운 3D 스타일, 탐정 콘셉트</span></div>
+        <div class="feature-card"><strong>활용 방식</strong><span>숏츠, 릴스, 카카오톡 이모티콘, 인스타 스티커</span></div>
+      </div>
+    </section>
+
+    <section id="videos" class="section">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Short-form Videos</p>
+          <h2>AI 맛집 소개 영상</h2>
+        </div>
+        <a class="text-link" href="https://youtube.com/channel/UC7XDETzhe8UCVyUFmR_UUrw?si=u6k4Cye7d1Z_lfta" target="_blank" rel="noopener">채널 바로가기 →</a>
+      </div>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <a href="https://youtube.com/shorts/GGRmOv0CqT8?feature=share" target="_blank" rel="noopener" class="thumb">
+            <img src="https://img.youtube.com/vi/GGRmOv0CqT8/hqdefault.jpg" alt="맛탐정 다람쥐 첫 번째 숏츠 썸네일" />
+            <span class="play">▶</span>
+          </a>
+          <div class="video-body">
+            <h3>1탄. 맛탐정 다람쥐 맛집 조사</h3>
+            <p>맛탐정 다람쥐가 실제 가게를 조사하며 메뉴의 매력을 소개하는 첫 번째 숏폼 영상입니다.</p>
+            <div class="stats">
+              <span>조회수 <b>839</b></span>
+              <span>좋아요 <b>5</b></span>
+              <span>댓글 <b>1</b></span>
             </div>
-        </section>
+          </div>
+        </article>
 
-        <section id="infographic" class="content-section">
-            <h2>Infographics & Posters</h2>
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="images/energy_saving_poster.jpg" alt="에너지 누수 방지 공익 포스터">
-                    <div class="overlay">에너지 절약 캠페인 포스터</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/artemis_cardnews.jpg" alt="아르테미스 2호 달 탐사 카드뉴스">
-                    <div class="overlay">우주 탐사 정보 카드뉴스</div>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/taste_detective_promo.jpg" alt="맛탐정 다람쥐 홍보 포스터">
-                    <div class="overlay">채널 홍보 인포그래픽</div>
-                </div>
+        <article class="video-card">
+          <a href="https://youtube.com/shorts/0fuxTdmOkmk?feature=share" target="_blank" rel="noopener" class="thumb">
+            <img src="https://img.youtube.com/vi/0fuxTdmOkmk/hqdefault.jpg" alt="맛탐정 다람쥐 두 번째 숏츠 썸네일" />
+            <span class="play">▶</span>
+          </a>
+          <div class="video-body">
+            <h3>2탄. 맛탐정 다람쥐 카페 조사</h3>
+            <p>시리즈형 콘텐츠로 확장하여 다른 맛집과 카페를 조사하는 두 번째 숏폼 영상입니다.</p>
+            <div class="stats">
+              <span>조회수 <b>367</b></span>
+              <span>좋아요 <b>4</b></span>
             </div>
-        </section>
+          </div>
+        </article>
+      </div>
+    </section>
 
-        <section id="goods" class="content-section">
-            <h2>Official Goods</h2>
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="images/goods1.jpg" alt="맛탐정 다람쥐 굿즈 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="images/goods2.jpg" alt="맛탐정 다람쥐 굿즈 2">
-                </div>
-            </div>
-        </section>
+    <section id="goods" class="section goods-section">
+      <div class="section-head">
+        <div>
+          <p class="section-label">Digital Goods</p>
+          <h2>이모티콘 굿즈 & 활용 예시</h2>
+        </div>
+      </div>
+      <p class="section-desc">
+        숏폼 속 반복 대사와 캐릭터 리액션을 바탕으로 카카오톡 이모티콘, 인스타그램 스티커 등으로 확장했습니다.
+      </p>
+      <div class="gallery">
+        <figure><img src="assets/emoticon1.jpeg" alt="맛탐정 다람쥐 이모티콘 시안 1"><figcaption>이모티콘 시안 1</figcaption></figure>
+        <figure><img src="assets/emoticon2.jpeg" alt="맛탐정 다람쥐 이모티콘 시안 2"><figcaption>이모티콘 시안 2</figcaption></figure>
+        <figure><img src="assets/emoticon3.jpeg" alt="맛탐정 다람쥐 이모티콘 시안 3"><figcaption>이모티콘 시안 3</figcaption></figure>
+        <figure><img src="assets/kakao-example.jpeg" alt="카카오톡 이모티콘 활용 예시"><figcaption>카카오톡 활용 예시</figcaption></figure>
+        <figure><img src="assets/insta-example1.jpeg" alt="인스타그램 스토리 활용 예시 1"><figcaption>인스타그램 스토리 예시 1</figcaption></figure>
+        <figure><img src="assets/insta-example2.jpeg" alt="인스타그램 스토리 활용 예시 2"><figcaption>인스타그램 스토리 예시 2</figcaption></figure>
+      </div>
+    </section>
 
-        <section id="landing" class="content-section">
-            <h2>Discover More</h2>
-            <p>맛탐정 다람쥐의 더 많은 이야기와 캠페인을 확인해 보세요.</p>
-            <a href="https://your-landing-page-url.com" target="_blank" class="cta-button">랜딩 페이지 방문하기</a>
-        </section>
-    </main>
+    <section id="plan" class="section plan-section">
+      <div class="plan-box">
+        <p class="section-label">Project Plan</p>
+        <h2>맛탐정 다람쥐 기획서</h2>
+        <p>
+          캐릭터 설정, 제작 목적, 타겟층, 이모티콘 구성, 활용 플랫폼 등을 정리한 기획서입니다.
+        </p>
+        <a class="btn primary" href="assets/project-plan.pdf" target="_blank" rel="noopener">기획서 PDF 열기</a>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2026 맛탐정 다람쥐. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+  <footer class="footer">
+    <p>© 2026 맛탐정 다람쥐 AI 콘텐츠 프로젝트</p>
+  </footer>
 </body>
 </html>
